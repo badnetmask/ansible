@@ -62,6 +62,7 @@ NIOS_NEXT_AVAILABLE_IP = 'func:nextavailableip'
 NIOS_IPV4_NETWORK_CONTAINER = 'networkcontainer'
 NIOS_IPV6_NETWORK_CONTAINER = 'ipv6networkcontainer'
 NIOS_MEMBER = 'member'
+NIOS_DTC_SERVER = 'dtc:server'
 
 NIOS_PROVIDER_SPEC = {
     'host': dict(fallback=(env_fallback, ['INFOBLOX_HOST'])),
